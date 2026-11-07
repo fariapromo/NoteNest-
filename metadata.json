@@ -1,0 +1,6 @@
+{
+  "name": "NoteNest - Academic Notes, Marketplace & P2P Study Workspace",
+  "description": "Organize searchable academic notes in folders, take rich study notes, buy and sell verified course materials, collaborate with peers, and conduct secure peer-to-peer payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

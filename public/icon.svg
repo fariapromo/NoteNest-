@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#0f172a"/>
+  <!-- Decorative nested rings representing NoteNest -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#334155" stroke-width="6" stroke-dasharray="8 8"/>
+  <circle cx="256" cy="256" r="160" fill="#1e293b" />
+  
+  <!-- Open Book & Bookmark in gold / amber -->
+  <g transform="translate(106, 126)">
+    <!-- Left page -->
+    <path d="M150 200 C 90 190, 40 210, 10 225 L 10 70 C 40 55, 90 40, 150 50 Z" fill="#f8fafc" stroke="#e2e8f0" stroke-width="3"/>
+    <!-- Right page -->
+    <path d="M150 200 C 210 190, 260 210, 290 225 L 290 70 C 260 55, 210 40, 150 50 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+    <!-- Book spine center -->
+    <line x1="150" y1="50" x2="150" y2="200" stroke="#cbd5e1" stroke-width="4"/>
+    
+    <!-- Academic lines on left page -->
+    <line x1="35" y1="85" x2="125" y2="78" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="35" y1="115" x2="125" y2="108" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="35" y1="145" x2="115" y2="138" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="35" y1="175" x2="95" y2="168" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Right page lines + Amber feather/quill -->
+    <line x1="175" y1="78" x2="265" y2="85" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="175" y1="108" x2="265" y2="115" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="175" y1="138" x2="255" y2="145" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Golden quill pen -->
+    <path d="M220 20 C240 -10, 270 -15, 280 -10 C275 15, 240 60, 210 95 L195 105 L200 90 Z" fill="#fbbf24"/>
+    <circle cx="150" cy="40" r="14" fill="#f59e0b"/>
+  </g>
+</svg>
